@@ -64,7 +64,10 @@ Hệ thống xếp hạng CV thông minh là một ứng dụng tiên tiến s�
 ## Giao diện web
 ![Giao Diện chính](./images/giadien1.png)
 ![Bảng Kết Quả](./images/giaodien2.png)
+![Xem Chi Tiết](./images/giaodien.png)
 ![Biểu đồ điểm số và xuất file Excel, PDF](./images/giaodien3.png)
+![Xuất File PDF](./images/giaodien4.png)
+![Xuất File Excel](./images/giaodien5.png)
 
 ## Kết quả nổi bật
 - Độ chính xác: MSE = 0.0164, R² = 0.9998 với mô hình Ensemble.
