@@ -1,3 +1,5 @@
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
 Automated-Resume-Ranking-System-main/csvfiles/GeneralCV_Example.csv filter=lfs diff=lfs merge=lfs -text
 Automated-Resume-Ranking-System-main/Contacts/model/rf_model.pkl filter=lfs diff=lfs merge=lfs -text
 NLPResumeRankingAutomatedSystem/model/rf_model.pkl filter=lfs diff=lfs merge=lfs -text
