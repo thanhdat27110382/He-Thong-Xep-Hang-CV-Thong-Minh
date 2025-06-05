@@ -1,25 +1,25 @@
-# Hệ thống xếp hạng CV thông minh dựa trên AI
+# HỆ THỐNG XẾP HẠNG CV THÔNG MINH
 
 ## Giới thiệu
 Hệ thống xếp hạng CV thông minh là một ứng dụng tiên tiến sử dụng trí tuệ nhân tạo (AI) để tự động đánh giá và xếp hạng các sơ yếu lý lịch (CV) dựa trên mức độ phù hợp với mô tả công việc (JD). Ứng dụng tận dụng các kỹ thuật xử lý ngôn ngữ tự nhiên (NLP), học máy (Machine Learning - ML) và học sâu (Deep Learning) để tối ưu hóa quy trình tuyển dụng, đặc biệt trong ngành công nghệ thông tin (CNTT). Dự án được phát triển nhằm giải quyết thách thức sàng lọc thủ công tốn thời gian và dễ sai sót.
 
 ## Tính năng chính
-- **Thu thập dữ liệu:** Thu thập 19,551 cặp CV/JD từ Kaggle, GitHub, Hugging Face, và crawl từ các trang như zety.com, myperfectresume.com.
+- **Thu thập dữ liệu:** Thu thập 19,551 cặp CV/JD từ Kaggle, GitHub, Hugging Face, và crawl từ các trang như zety.com, myperfectresume.com, indeed.com, resumekraft.com, resumemaker.ai, resumelab.com,...
 - **Tiền xử lý:** Loại bỏ email, URL, số điện thoại, chuẩn hóa thuật ngữ với từ điển 300 từ khóa.
 - **Trích xuất đặc trưng:** Sử dụng spaCy để trích xuất kỹ năng, kinh nghiệm, học vấn.
 - **Vector hóa và gán nhãn:** Vector hóa bằng all-mpnet-base-v2 (768 chiều), tính cosine similarity, tạo tập dữ liệu gán nhãn.
-- **Huấn luyện mô hình:** Kết hợp Random Forest (60%), XGBoost (20%), Transformer (20%) trong mô hình Ensemble.
+- **Huấn luyện mô hình:** Huấn luyện 7 mô hình: Random Forest, XGBoost, HistGradientBoosting, MLP, LSTM, Transformer, EnsembleRXTModel: Kết hợp RF (60%), XGB (20%), Transformer (20%).
 - **Xử lý PDF:** Trích xuất nội dung từ CV PDF bằng pdfplumber, PyMuPDF, Camelot.
 - **Xếp hạng CV:** Dự đoán điểm số (0-100), sắp xếp theo thứ tự ưu tiên.
 - **Giao diện web:** Tải JD văn bản và CV PDF, hiển thị bảng xếp hạng, biểu đồ điểm số, xuất file Excel/PDF.
 
 ## Công nghệ sử dụng
-- **Thư viện Python:** Pandas, NumPy, NLTK, spaCy, re, Pickle, Joblib, Sentence Transformers, Scikit-learn, XGBoost, PyTorch, Matplotlib, SciPy, Garbage Collection, Logging, Time, Flask, pdfplumber, PyMuPDF, Camelot, PyPDF2, Selenium, Beautiful Soup.
-- **Framework/Web:** Flask, Jinja2, HTML, CSS, JavaScript.
+- **Thư viện Python:** Pandas, NumPy, NLTK, spaCy, re, Pickle, Joblib, Sentence Transformers,  Scikit-learn, XGBoost, PyTorch,  Matplotlib, SciPy, Garbage Collection, Logging,  Time, Flask, Jinja2, pdfplumber, PyMuPDF,  Camelot, PyPDF2, Selenium, Beautiful Soup.
+- **Framework/Web:** HTML, CSS, JavaScript.
 - **Công cụ phát triển:** VSCode, Jupyter Notebook.
 
 ## Yêu cầu cài đặt
-- **Python:** Phiên bản 3.8 hoặc cao hơn.
+- **Python:** Phiên bản 3.11.9 hoặc cao hơn.
 - **Thư viện phụ thuộc:** Cài đặt bằng lệnh:
   ```bash
   pip install -r requirements.txt
@@ -29,7 +29,7 @@ Hệ thống xếp hạng CV thông minh là một ứng dụng tiên tiến s�
 ## Hướng dẫn cài đặt và chạy
 1. **Clone repository:**
    ```bash
-   git clone https://github.com/[username]/NLPResumeRankingAutomatedSystem.git
+   git clone https://github.com/thanhdat27110382/He-Thong-Xep-Hang-CV-Thong-Minh.git
    cd NLPResumeRankingAutomatedSystem
    ```
 2. **Cài đặt môi trường:**
@@ -62,8 +62,8 @@ Hệ thống xếp hạng CV thông minh là một ứng dụng tiên tiến s�
 - Nhấn "Reset" để xóa dữ liệu.
 
 ## Kết quả nổi bật
-- Độ chính xác: MSE = 0.05, R² = 0.92 với mô hình Ensemble.
-- Hiệu suất: Xử lý 32 CV trong 6 giây, 1,000 CV trong 4.5 phút.
+- Độ chính xác: MSE = 0.0164, R² = 0.9998 với mô hình Ensemble.
+- Hiệu suất: Xử lý 25 CV trong 40 giây.
 - Giao diện: Hiển thị bảng xếp hạng, biểu đồ trực quan, hỗ trợ xuất file.
 
 ## Đóng góp và phát triển
@@ -74,8 +74,8 @@ Hệ thống xếp hạng CV thông minh là một ứng dụng tiên tiến s�
 Dự án được phát hành dưới giấy phép [MIT License](LICENSE) - xem tệp LICENSE để biết chi tiết.
 
 ## Liên hệ
-- **Tác giả:** [Tên của bạn]
-- **Email:** [Địa chỉ email của bạn]
+- **Tác giả:** Trần Lương Thành Đạt
+- **Email:** tranluongthanhdat27112003@gmail.com
 - **Ngày cập nhật:** 05/06/2025
 
 ## Lưu ý
