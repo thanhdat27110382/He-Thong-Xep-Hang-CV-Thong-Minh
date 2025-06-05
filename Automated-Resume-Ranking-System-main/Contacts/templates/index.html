@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Ranking System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-6 max-w-4xl">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">Automated Resume Ranking System</h1>
+        
+        <div class="bg-white shadow-lg rounded-lg p-6 mb-6">
+            <form action="/upload" method="POST" enctype="multipart/form-data" id="uploadForm">
+                <div class="mb-4">
+                    <label for="resumes" class="block text-sm font-medium text-gray-700">Upload Resumes (PDF only, max 200MB total):</label>
+                    <input type="file" name="resumes" id="resumes" accept="application/pdf" multiple required class="mt-1 block w-full p-2 border border-gray-300 rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="job_description" class="block text-sm font-medium text-gray-700">Job Description:</label>
+                    <textarea name="job_description" id="job_description" placeholder="Enter job description here..." required class="mt-1 block w-full p-2 border border-gray-300 rounded-md h-32"></textarea>
+                </div>
+                <button type="submit" id="submitBtn" class="w-full bg-green-600 text-white p-3 rounded-md hover:bg-green-700 transition">Upload Resumes</button>
+            </form>
+        </div>
+
+        {% if results %}
+        <div class="bg-white shadow-lg rounded-lg p-6">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4">Ranking Results</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full table-auto border-collapse">
+                    <thead>
+                        <tr class="bg-gray-200">
+                            <th class="p-3 text-left text-sm font-medium text-gray-700">Resume</th>
+                            <th class="p-3 text-left text-sm font-medium text-gray-700">Match Score</th>
+                            <th class="p-3 text-left text-sm font-medium text-gray-700">AI Suggestion</th>
+                            <th class="p-3 text-left text-sm font-medium text-gray-700">Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for result in results %}
+                        <tr class="border-b">
+                            <td class="p-3 text-sm text-gray-700">{{ result.resume_file }}</td>
+                            <td class="p-3 text-sm text-gray-700">{{ result.score }} / 100</td>
+                            <td class="p-3 text-sm text-gray-700">{{ result.suggestion | default('N/A', true) }}</td>
+                            <td class="p-3 text-sm text-gray-700">{{ result.category | default('N/A', true) }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-6 text-center">
+                <p class="text-lg font-semibold text-green-600">✅ Ranking Complete!</p>
+                {% if top_match %}
+                <p class="text-md text-gray-700">Top Match: <span class="font-medium">{{ top_match }}</span></p>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+
+        <div class="bg-gray-50 rounded-lg p-6">
+            <h3 class="text-lg font-semibold text-gray-800 mb-4">Scoring Basis</h3>
+            <ul class="list-disc pl-5 text-sm text-gray-600">
+                <li><span class="font-medium">Resume and Job Description Match:</span> Cosine similarity between resume and job description.</li>
+                <li><span class="font-medium">Skills:</span> Skills in your resume that match the job requirements.</li>
+                <li><span class="font-medium">Experience and Education:</span> Relevant experience and qualifications.</li>
+                <li><span class="font-medium">Category Prediction:</span> Machine learning model predicts job category.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Loading state for form submission
+        document.getElementById('uploadForm').addEventListener('submit', function() {
+            const submitBtn = document.getElementById('submitBtn');
+            submitBtn.disabled = true;
+            submitBtn.innerText = 'Processing...';
+        });
+    </script>
+</body>
+</html>
