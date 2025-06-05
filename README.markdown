@@ -61,6 +61,11 @@ Hệ thống xếp hạng CV thông minh là một ứng dụng tiên tiến s�
 - Nhấn "Upload and Rate" để xếp hạng, xem bảng kết quả, biểu đồ điểm số, hoặc xuất file Excel/PDF.
 - Nhấn "Reset" để xóa dữ liệu.
 
+## Giao diện web
+![Giao Diện chính](./images/giadien1.png)
+![Bảng Kết Quả](./images/giaodien2.png)
+![Biểu đồ điểm số và xuất file Excel, PDF](./images/giaodien3.png)
+
 ## Kết quả nổi bật
 - Độ chính xác: MSE = 0.0164, R² = 0.9998 với mô hình Ensemble.
 - Hiệu suất: Xử lý 25 CV trong 40 giây.
