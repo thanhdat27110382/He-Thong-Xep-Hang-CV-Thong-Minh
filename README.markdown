@@ -1,8 +1,4 @@
-# Hệ Thống Xếp Hạng CV Thông Minh Dựa Trên AI
-
-<p align="center">
-  <img src="images/resume.jpg" alt="Smart CV Ranking System" width="400"/>
-</p>
+# Hệ Thống Xếp Hạng CV Thông Minh
 
 ## Giới thiệu
 
