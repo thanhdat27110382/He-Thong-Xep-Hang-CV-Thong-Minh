@@ -17,6 +17,7 @@ import torch
 import pdfplumber
 import fitz  
 import camelot
+from camelot.core import TableList
 
 app = Flask(__name__)
 
@@ -80,20 +81,20 @@ class EnsembleRXTModel(torch.nn.Module):
 # Tải mô hình ensemble rf + xgb + transformer
 try:
     # 1. Tải Random Forest
-    rf_model = joblib.load("D:/BaiDoAnChuyenNganh3/NLPResumeRankingAutomatedSystem/model/rf_model.pkl")
+    rf_model = joblib.load(r"D:\BaiDoAnChuyenNganh3\NLPResumeRankingAutomatedSystem\model\rf_model.pkl")
     logging.info("Mô hình Random Forest đã được tải thành công.")
     
     # 2. Tải XGBoost
-    xgb_model = joblib.load("D:/BaiDoAnChuyenNganh3/NLPResumeRankingAutomatedSystem/model/xgb_model.pkl")
+    xgb_model = joblib.load(r"D:\BaiDoAnChuyenNganh3\NLPResumeRankingAutomatedSystem\model\xgb_model.pkl")
     logging.info("Mô hình XGBoost đã được tải thành công.")
     
     # 3. Tải Transformer
-    input_dim = 1540  
+    input_dim = 1540
     d_model = 128
     nhead = 4
     num_layers = 2
     transformer_model = TransformerModel(input_dim, d_model, nhead, num_layers).to(device)
-    transformer_model.load_state_dict(torch.load("D:/BaiDoAnChuyenNganh3/NLPResumeRankingAutomatedSystem/model/transformer_model_best.pth", weights_only=True))
+    transformer_model.load_state_dict(torch.load(r"D:\BaiDoAnChuyenNganh3\NLPResumeRankingAutomatedSystem\model\transformer_model_best.pth", weights_only=True))
     transformer_model.eval()
     logging.info("Mô hình Transformer đã được tải thành công.")
     
@@ -993,7 +994,7 @@ def upload_files():
                 results.append({
                     'cv_name': cv_name,
                     'score': round(score, 2),
-                    'cv_content': cv_content.replace('"', "'")  # Replace quotes to avoid JSON issues
+                    'cv_content': cv_content.replace('"', "'")  
                 })
         except Exception as e:
             return render_template('index.html', error=str(e))
@@ -1003,7 +1004,7 @@ def upload_files():
     
     return render_template('index.html', 
                          results=results, 
-                         jd_text=jd_text.replace('"', "'"),  # Replace quotes to avoid JSON issues
+                         jd_text=jd_text.replace('"', "'"),
                          safe_json=lambda x: x)
 
 if __name__ == '__main__':

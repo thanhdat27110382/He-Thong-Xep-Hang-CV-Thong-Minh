@@ -1,0 +1,126 @@
+1. JD cho Front End UI Developer
+
+Front End UI Developer
+We are seeking a highly skilled and experienced Front End UI Developer to join our dynamic team. The ideal candidate will have a strong passion for creating intuitive and visually appealing user interfaces, with a proven track record of developing responsive and high-performance web applications. You'll play a crucial role in designing, developing, and implementing front-end solutions that enhance user experience and meet business objectives.
+Skills
+Extensive Front-End Technologies: Proficient in HTML5, CSS3, JavaScript, jQuery, and XML. Strong understanding of responsive, adaptive, and mobile web design principles using Bootstrap and media queries.
+Modern JavaScript Frameworks: Proven expertise in AngularJS (including Angular 2.0+ concepts) for building robust and scalable single-page applications. Familiarity with other frameworks like React.js, Node.js, and Backbone.js is a plus.
+UI/UX Design Principles: Solid understanding of user interface guidelines, standards, and best practices. Ability to rapidly prototype interface designs and optimize graphic elements.
+Cross-Browser Compatibility & Debugging: Experienced in addressing cross-browser compatibility issues and debugging effectively across various browsers (Safari, Internet Explorer, Mozilla Firefox, Google Chrome) using tools like Google Chrome Developer Tools, Firebug, and Radar/JIRA.
+Version Control & Methodologies: Proficient with Git (GitHub), SVN, and Perforce. Strong working knowledge of Agile (SCRUM, XP Practices like Pair Programming, TDD) and Waterfall methodologies.
+API Integration: Experience in consuming and integrating with RESTful and SOAP Web Services using AJAX and JSON/XML.
+Database & Servers: Familiarity with MySQL, SQL Server, Oracle, and deployment on Apache Tomcat, WebLogic, HTTP Web Server.
+Operating Systems: Comfortable working across various operating systems including Windows, UNIX, and LINUX.
+Soft Skills: Self-starter with excellent communication, organizational, and interpersonal skills. Capable of performing under minimal supervision, multitasking, and meeting deadlines as an individual contributor and a team member.
+Experience
+7+ years of extensive experience in all phases of the software development life cycle, including requirements analysis, application design, development, integration, maintenance, and testing of client/server, N-tier, and web applications.
+Successfully delivered complex front-end solutions for large enterprises, focusing on appointment scheduling, content management systems (CMS), and online loan management platforms.
+Developed highly interactive and data-driven web applications by leveraging AJAX, Object-Oriented JavaScript, JSON, and XML.
+Implemented Model-View-Controller (MVC) design patterns using AngularJS and contributed to component-based architectures.
+Collaborated effectively with build teams to integrate front-end code with back-end technologies and portal frameworks, ensuring seamless user experience implementation.
+Designed and implemented REST APIs for high-volume data collection and retrieval.
+Actively participated in agile software development practices, including paired programming, test-driven development (TDD), and scrum status meetings.
+Education
+[While the CV provided doesn't explicitly state formal education, in a real job description, you would typically include a placeholder like:] Bachelor's degree in Computer Science, Software Engineering, or a related field, or equivalent practical experience.
+
+2. Nhân viên phát triển phần mềm
+
+JOB DESCRIPTION
+Position: Senior Front-End / Full-Stack Developer
+Location: Flexible (UK, US, Remote)
+Industry: FinTech, SaaS, Platform-as-a-Service
+Key Skills & Technologies
+Languages: JavaScript, TypeScript, HTML5, CSS3, C#, Java
+Front-End Frameworks: React, Next.js, AngularJS, Angular 2+, Redux, Zustand
+Back-End: Node.js, ASP.NET MVC, Web API, Kotlin (microservices), Spring Boot
+UI/UX: Responsive design, component-based architecture, UI Kits, cross-browser compatibility
+Tools & Methodologies: Git, SVN, TFS, Agile/SCRUM, TDD, CI/CD pipelines
+DevOps & Cloud: Docker, RESTful APIs, performance optimization, cloud-native integration
+Database: SQL Server, MySQL, PostgreSQL
+Others: Webpack, Babel, design systems, Photoshop (basic)
+Experience
+The ideal candidate brings 6–10+ years of experience working in product-driven, scalable web application development, with a strong emphasis on front-end engineering and UI architecture.
+Successfully developed enterprise-grade web applications and internal platforms from scratch
+Built and maintained complex front-end ecosystems with strong test coverage and performance optimization (e.g., Lighthouse score improvements, automated pipelines)
+Played a key role in architecture, component library development, and UI/UX integration for web and mobile platforms
+Delivered cross-functional solutions collaborating with product owners, designers, and backend teams
+Mentored junior developers and participated in code reviews and technical documentation
+Experience with both B2B and B2C projects, including sports betting platforms, procurement systems, and mobile university apps
+ Education
+Candidates hold at least a Bachelor’s degree in Computer Science, Software Engineering, or related fields, with additional Master’s level education in innovation or computer science in some cases.
+Degrees from institutions such as Saint Petersburg State University of Aerospace Instrumentation, FPT University, and Lancaster University
+Graduated with distinction or top class performance (GPA 4.28/5.0, GPA 88%, Top 5 cohort)
+ Ideal Candidate
+This position is ideal for a high-performing developer who thrives in agile environments, has a passion for modern web technologies, and can take ownership of both design and implementation of front-end solutions across product platforms.
+
+3. Nhân viên phân tích dữ liệu
+
+JOB DESCRIPTION
+Position: Data Analyst / Business Intelligence Specialist
+Location: Open / Hybrid / Remote
+Industry: E-commerce, Financial Services, Technology
+Skills
+Data Analytics: Python (Pandas, NumPy, Scikit-learn), R (ggplot2, dplyr), SQL (PostgreSQL, MySQL, BigQuery, Redshift)
+Data Visualization: Power BI, Tableau, Excel (Advanced, VBA, DAX, Power Query), Google Data Studio
+Statistics & Machine Learning: Regression, Classification, Clustering, Time Series Forecasting, A/B Testing, Cohort Analysis
+Data Engineering Tools: ETL processes, Airflow, Docker, Jupyter, Git, AWS, GCP, Azure
+Business Intelligence: KPI dashboarding, financial and operational reporting, predictive modeling
+Others: Data storytelling, CRISP-DM workflow, data quality assurance, Shiny App, Power Pivot, version control
+Experience
+Candidates bring 3–5+ years of progressive experience in data analysis and BI development across industries including e-commerce, banking, education, and public sector.
+Analyzed large-scale datasets (up to 10M+ records) to extract business insights and drive strategic decisions
+Built and maintained interactive dashboards for leadership using Power BI and Tableau
+Developed and implemented machine learning models for customer segmentation, revenue forecasting, and churn prediction
+Led or contributed to end-to-end data pipelines: collecting, cleansing, modeling, visualizing, and interpreting
+Supported decision-making in marketing, product, finance, and risk through data-driven storytelling
+Collaborated with stakeholders in cross-functional teams and mentored junior analysts
+Recognized for excellence in data presentation and predictive analytics (e.g., awards in visual analysis and ML modeling)
+Education
+All candidates possess strong academic backgrounds in Data Science, Business Analytics, Statistics, or Financial Mathematics, including:
+Master of Science in Data Science / Financial Services & Risk Management
+HTW Berlin – University of Applied Sciences
+University of Science, Ho Chi Minh City
+Bachelor of Science in Business Mathematics / Statistics
+National Economics University
+HTW Berlin
+GPA ranging from 8.3 to 8.8/10 or equivalent
+Capstone and thesis projects on real-world data (e.g., customer trend prediction, campaign ROI, ML-based analysis)
+Ideal Candidate Profile
+You are a data-driven professional who transforms numbers into actionable business insights. You enjoy working with data end-to-end – from collecting to storytelling – and thrive in collaborative environments. You are passionate about using data to solve complex problems, whether it's improving operations, predicting user behavior, or driving business growth.
+
+4. Java Developer
+
+Job Title: Java Developer
+Location: On-site / Remote / Hybrid
+Department: Software Development / IT
+Job Description
+We are looking for a highly motivated and experienced Java Developer to join our software development team. The ideal candidate will be responsible for designing, developing, and maintaining scalable and high-performance applications. You should have a solid foundation in Java development, a strong understanding of backend systems, and the ability to work effectively in an agile team environment.
+Skills
+Strong programming skills in Java SE/EE (8 or above)
+Experience with Spring Framework (Spring Boot, MVC, Security, JPA)
+Understanding of RESTful API development and integration
+Hands-on experience with SQL databases (e.g., MySQL, PostgreSQL, Oracle)
+Familiarity with NoSQL databases (e.g., MongoDB, Redis) is a plus
+Knowledge of build tools such as Maven or Gradle
+Proficiency in version control systems (e.g., Git)
+Good understanding of OOP, design patterns, and microservices architecture
+Experience with unit testing frameworks (e.g., JUnit, Mockito)
+Familiarity with CI/CD pipelines and Docker/Kubernetes is a strong advantage
+Excellent problem-solving, debugging, and analytical skills
+Experience
+2–5+ years of hands-on experience in Java application development
+Proven experience developing web-based or enterprise-level Java applications
+Experience working in Agile/Scrum teams and using tools like Jira, Confluence
+Track record of working across the full software development lifecycle
+Experience integrating with third-party services, APIs, or cloud platforms
+Prior involvement in code reviews, performance optimization, and technical documentation
+Experience deploying and maintaining applications in production environments
+Education 
+Bachelor's degree or higher in Computer Science, Software Engineering, Information Technology, or a related field
+Certifications such as Oracle Certified Java Programmer (OCPJP) or Spring Professional Certification are a plus
+Bonus if you have
+Experience with frontend frameworks like Angular/React (for full-stack roles)
+Familiarity with Kafka, RabbitMQ, or messaging systems
+Experience with cloud platforms such as AWS, GCP, or Azure
+If you are passionate about building robust and scalable Java applications and want to grow with a team that values quality and innovation — we want to hear from you!
+Apply now with your updated CV and portfolio (if any).
